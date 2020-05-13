@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/logoquiz.png);
+    background-size: auto 122vh;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+}
+
+.menu{
+background-color: rgb(54, 54, 54) ;
+
+}
+.menu li {
+    list-style: none;
+
+}
+.menu ul{
+display: flex;
+justify-content: space-around;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 255, 255);
+}
+
+a:hover {
+text-decoration: underline rgb(121, 119, 121);
+
+}
+.subtitulo,
+.titulo {
+   text-align: center;
+   color: aqua;
+}
+
+.subtitulo {
+font-style: italic;
+}
